@@ -1,0 +1,89 @@
+import React from "react";
+import { Link } from "react-router-dom";
+// import logo from "../abcd/hero.jpg"
+import { BiMenu, BiSearch, BiShareAlt } from "react-icons/bi";
+import { AiOutlineCaretDown } from "react-icons/ai"
+
+const NavSm = () => {
+    return (
+        <>
+            <div className="text-white flex items-center justify-between">
+                <div>
+                    <h3 className="text-xl font-bold">It All Starts Here!</h3>
+                </div>
+                <div className="flex gap-4">
+                    <div>
+                        <button className="bg-red-500 px-2 py-1 rounded-md text-sm font-bold">Use App</button>
+                    </div>
+                    <div className="w-6 h-6">
+                        <BiShareAlt className="w-full h-full" />
+                    </div>
+                </div>
+            </div>
+        </>
+    );
+};
+
+const NavLg = () => {
+    return (
+        <div className="flex container mx-auto px-32 items-center justify-between h-8">
+            <div className="flex items-center w-7/12 gap-3">
+                <div >
+                    <Link to="/"><img src="https://in.bmscdn.com/webin/common/icons/logo.svg" alt="logo" className="h-9 -my-4" /></Link>
+                </div>
+                <div className=" w-9/12 flex h-9 items-center bg-white gap-3 py-2 rounded-md">
+                    <i> </i>
+                    <BiSearch />
+                    <input type="search" className="w-full focus:outline-none" placeholder="Search for Movies, Events, Plays, Sports and Activities" />
+                </div>
+            </div>
+            <div className="flex items-center gap-5">
+                <span className="text-white text-sm font-semibold flex items-center hover:text-white cursor-pointer gap-4">
+                    Vizag <AiOutlineCaretDown />
+                    <button className="bg-red-500 text-white text-xs rounded px-3 py-1">Sign in.</button>
+                </span>
+                <div className="w-8 h-8 text-white">
+
+                    <BiMenu className="w-full h-full
+                    "/>
+                </div>
+
+            </div>
+        </div>
+    );
+};
+
+const MovieNavbar = () => {
+    return (
+        <>
+            <nav className="absolute inset-x-0 z-10 bg-opacity-10 backdrop-filter backdrop-blur-lg lg:relative lg:bg-navCol-700 bg-navCol-700 p-4">
+                <div className="md:hidden">{
+                    <NavSm />
+                }</div>
+                <div className="hidden lg:hidden md:block">{
+                    <NavSm />
+                }</div>
+                <div className="hidden lg:flex">{
+                    <NavLg />
+                }</div>
+            </nav>
+            <div className="hidden lg:block">
+                <div className="bg-[#222539] flex container justify-between px-32 items-center">
+                    <div>
+                        <ul className="flex p-3 gap-4 text-sm text-white items-center">
+                            <li><Link to="/movie/1234">Movies</Link></li><li className="flex">Stream<sup className=" text-red-600 mt-1 mr-1 font-bold text-[8px]">NEW</sup></li><li>Events</li><li><Link to="/plays">Plays</Link></li><li>Sports</li><li>Activities</li><li>Buzz</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul className="flex p-3 gap-4 text-sm text-white items-center">
+                            <li>ListYourShow</li><li>Corporates</li><li>Offers</li><li>GiftCards</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </>
+    );
+};
+
+export default MovieNavbar;

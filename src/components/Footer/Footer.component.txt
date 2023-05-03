@@ -1,0 +1,89 @@
+<footer class="footer">
+
+<div class="footer-message"><span id="footerText">List your Show </span>
+    Got a show, event, activity or a great experience? Partner with us & get listed on BookMyShow
+
+    <a href="contact.html"><button id="buttonFooter">Contact today!</button></a>
+    </div>
+
+    <div="horizontal">
+<hr>
+</div>
+
+</footer>
+
+
+
+
+<table>
+    <tr>
+        <th>Navigate</th>
+        <th>Help</th>
+        <th>Top Movies and Events</th>
+        <th>Newsletter</th>
+    </tr>
+
+    <tr>
+        <td><a href="index.html" class="footerLinks">Home</a></td>
+        <td><a href="#search" class="footerLinks">Search</a></td>
+        <td><a href="movies.html" class="footerLinks">Avengers</a></td>
+        <td rowspan="2">Get updates, news and specials before anyone else.</td>
+    </tr>
+
+    <tr>
+        <td><a href="signup.html" class="footerLinks">Signup</a></td>
+        <td><a href="quote.html" class="footerLinks">Get-a-Quote</a></td>
+        <td><a href="movies.html" class="footerLinks">Chal mera putt 2</a></td>
+    </tr>
+
+    <tr>
+        <td><a href="login.html" class="footerLinks">Log In</a></td>
+        <td><a href="contact.html" class="footerLinks">Help</a></td>
+        <td><a href="movies.html" class="footerLinks">Bloodshot</a></td>
+        <td rowspan="2" >
+            <input type="email" placeholder="Type you email here.." id="emailFooter">
+            <span><button class="emailFooter">Subscribe</button></span>
+        </td>
+    </tr>
+
+    <tr>
+        <td><a href="about.html" class="footerLinks">About</a></td>
+        <td><a href="conditions.html" class="footerLinks">Terms & Conditions</a></td>
+        <td><a href="movies.html" class="footerLinks">Scoob!</a></td>
+        
+    </tr>
+
+    <tr>
+        <td><a href="movies.html" class="footerLinks">Movies</a></td>
+        <td> </td>
+        <td><a href="movies.html" class="footerLinks">The invisible man</a></td>
+        
+    </tr>
+
+    <tr>
+        <td> <a href="contact.html" class="footerLinks">Contact</a></td>
+        <td> </td>
+        <td><a href="movies.html" class="footerLinks">Underwater</a></td>
+        
+    </tr>
+
+   
+
+</table>
+
+<div class="footer">
+<hr>
+</div>
+
+<table>
+    <tr>
+        <th> <p class="footer">Copyright &copy; 2020 All Rights Reserved by BookMyShow</p></th>
+        <th>
+            <a href="https://www.facebook.com/navandeep.singh.73" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/explore" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/navan.rana/" class="fa fa-instagram"></a>
+            <a href="mailto:navandeep0511@gmail.com" class="fa fa-google"></a>
+            <a href="https://www.youtube.com/channel/UChzUn-zq1V6KnQHSe24okFg?view_as=subscriber" class="fa fa-youtube"></a>
+        </th>
+    </tr>
+</table
