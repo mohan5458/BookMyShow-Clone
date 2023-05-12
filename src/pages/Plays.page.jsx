@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Poster from "../components/Poster/poster.component";
+import Footer from "../components/Footer/footer.component";
 // import { PosterCommon } from "../components/Poster/poster.component";
 import PlaysFilter from "../components/PlaysFilters/PlaysFilter.component";
 const Plays = () => {
@@ -54,6 +55,7 @@ const Plays = () => {
                 </div>
 
             </div>
+            <Footer />
         </>
     );
 };

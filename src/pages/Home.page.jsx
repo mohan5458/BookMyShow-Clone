@@ -4,7 +4,9 @@ import axios from "axios";
 import EntertainmentCardSlider from "../components/Entertainment/Entertainment.component";
 // import { Premier } from "../components/Premier/Premier.component";
 import PosterSlider from "../components/PosterSlider/PosterSlider.component";
-// import { PremierImage, Events } from "../config/TempPosters.config";
+import { PosterSliderCommon } from "../components/PosterSlider/PosterSlider.component";
+import { PremierImage, Events, EntertainmentImage } from "../config/TempPosters.config";
+import Footer from "../components/Footer/footer.component";
 // import Footer from "../components/Footer/Footer.component";
 //export to App.js
 export const HomePage = () => {
@@ -54,7 +56,7 @@ export const HomePage = () => {
                     <h1 className="font-bold text-lg md:text-xl lg:text-2xl text-gray-800 m-2">
                         The Best Of Live Events
                     </h1>
-                    <EntertainmentCardSlider />
+                    <EntertainmentCardSlider Image={EntertainmentImage} isSquare />
                 </div>
                 <div className="bg-navCol-100 pb-5">
                     <div className="container mx-auto w-5/6 flex flex-col gap-3 ">
@@ -69,7 +71,18 @@ export const HomePage = () => {
                         images={popularUpCmg}
                         title="Upcoming Movies" className="container" />
                 </div>
+                <div className=" w-5/6 mx-auto">
+                    <PosterSliderCommon
+                        images={PremierImage}
+                        title="Online Streaming" className="container" />
+                </div>
+                <div className=" w-5/6 mx-auto">
+                    <PosterSliderCommon
+                        images={Events}
+                        title="Outdoor Events" className="container" />
+                </div>
             </div>
+            <Footer />
 
         </>
     );

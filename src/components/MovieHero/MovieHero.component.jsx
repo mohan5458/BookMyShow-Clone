@@ -21,12 +21,12 @@ const launchRazorPay = () => {
 const MovieHero = () => {
     return (
         <>
-            <div className="md:hidden">
-                <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/fast-x-et00122562-1679316138.jpg" alt="Poster" />
+            <div className="md:hidden left-0">
+                <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/fast-x-et00122562-1679316138.jpg" alt="Poster" className="w-full" />
             </div>
 
-            <div className="hidden md:block lg:hidden">
-                <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/fast-x-et00122562-1679316138.jpg" alt="Poster" />
+            <div className="hidden md:block lg:hidden left-0">
+                <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/fast-x-et00122562-1679316138.jpg" alt="Poster" className="w-full" />
             </div>
 
             <div className="relative hidden lg:block" style={{ height: "40rem" }} >

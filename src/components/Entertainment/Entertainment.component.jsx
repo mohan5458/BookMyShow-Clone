@@ -12,25 +12,22 @@ export const EntertainmentCard = (props) => {
     );
 };
 
-const EntertainmentCardSlider = () => {
-    const EntertainmentImage = [
-        "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:w-300:q-80/ipl-collection-202302270454.png",
-        "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTIwKyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/workshop-and-more-web-collection-202211140440.png",
-        "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NTArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/kids-zone-collection-202211140440.png",
-        "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTcwKyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/comedy-shows-collection-202211140440.png",
-        "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-ODArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/music-shows-collection-202211140440.png",
-        "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NCBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/esports-collection-202211140440.png",
-        "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NCBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/upskill-collection-202211140440.png",
-        "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/interactive-games-collection-202211140440.png",
-        "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NiBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/arts-crafts-collection-202211140440.png",
-        "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTIwKyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/theatre-shows-collection-202211140440.png",
-        "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NTArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/adventure-fun-collection-202211140440.png"
-    ];
+export const EntertainmentCardCircle = (props) => {
+    return (
+        <>
+            <div className="w-full h-full h-30 px-4">
+                <img className=" h-32 w-32 rounded-full" src={props.src} alt="Cast &Crew" />
+            </div>
+        </>
+    );
+};
+
+const EntertainmentCardSlider = (props) => {
 
     const settings = {
         autoplay: false,
         slidesToShow: 5,
-        slidesToScroll: 5,
+        slidesToScroll: 4,
         InitialSlide: 0,
         nextArrow: <NArrow />,
         prevArrow: <PArrow />,
@@ -63,8 +60,9 @@ const EntertainmentCardSlider = () => {
     return (
         <>
             <Slider {...settings}>
-                {EntertainmentImage.map((image) => (
-                    <EntertainmentCard src={image} />
+                {props.Image.map((image) => (
+                    props.isSquare ?
+                        <EntertainmentCard src={image} /> : <EntertainmentCardCircle src={image} />
                 ))}
             </Slider>
         </>

@@ -19,7 +19,7 @@ function PlaysFilter(props) {
                         <div className='flex items-center gap-3 flex-wrap p-4 '>
                             {props.tags.map((tag) => (
                                 <>
-                                    <div className='border border-gray-300 px-3 py-1'>
+                                    <div className='border rounded-sm border-gray-300 px-3 py-1'>
                                         <span className='text-red-600 text-sm'>{tag}</span>
                                     </div>
                                 </>

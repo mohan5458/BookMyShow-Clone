@@ -120,3 +120,44 @@ export const PremierImage = [
         subtitle: "Finnish"
     },
 ]
+
+
+export const EntertainmentImage = [
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:w-300:q-80/ipl-collection-202302270454.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTIwKyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/workshop-and-more-web-collection-202211140440.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NTArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/kids-zone-collection-202211140440.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTcwKyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/comedy-shows-collection-202211140440.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-ODArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/music-shows-collection-202211140440.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NCBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/esports-collection-202211140440.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NCBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/upskill-collection-202211140440.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/interactive-games-collection-202211140440.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NiBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/arts-crafts-collection-202211140440.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTIwKyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/theatre-shows-collection-202211140440.png",
+    "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NTArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/adventure-fun-collection-202211140440.png"
+];
+
+export const Cast = [
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/vin-diesel-5007-22-12-2017-10-17-23.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/jason-momoa-25617-24-03-2017-17-39-52.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/john-cena-1021-24-03-2017-15-43-30.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/jason-statham-935-24-03-2017-13-50-52.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/tyrese-gibson-2671-24-03-2017-17-39-25.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/nathalie-emmanuel-1055032-24-03-2017-16-16-15.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/michelle-rodriguez-1471-13-10-2017-03-57-20.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sung-kang-11092-26-02-2021-18-44-11.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/ludacris-8772-07-04-2017-11-45-23.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/helen-mirren-808-24-03-2017-12-36-16.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/brie-larson-28222-18-12-2019-12-59-07.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/jordana-brewster-11084-11-09-2017-01-50-30.jpg"
+];
+
+export const Crew = [
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/justin-lin-1105-24-03-2017-15-20-50.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/neal-h.-moritz-iein011457-24-03-2017-15-17-53.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/gary-scott-thompson-1068971-07-04-2017-11-42-53.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/nicole-perlman-42699-12-10-2018-10-33-23.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/stephen-f.-windon-iein073214-07-04-2017-11-42-14.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/helen-mirren-808-24-03-2017-12-36-16.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/brie-larson-28222-18-12-2019-12-59-07.jpg",
+    "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/jordana-brewster-11084-11-09-2017-01-50-30.jpg"
+];
