@@ -2,7 +2,7 @@
   "homepage": "https://mohan5458.github.io/BookMyShow-Clone/",
   "name": "tailwind-css",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@headlessui/react": "^1.7.14",
     "@testing-library/jest-dom": "^5.16.5",
