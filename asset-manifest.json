@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/BookMyShow-Clone/static/css/main.47503743.css",
+    "main.js": "/BookMyShow-Clone/static/js/main.a430349e.js",
+    "static/js/787.2ead5929.chunk.js": "/BookMyShow-Clone/static/js/787.2ead5929.chunk.js",
+    "static/media/slick.svg": "/BookMyShow-Clone/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/BookMyShow-Clone/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/BookMyShow-Clone/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/BookMyShow-Clone/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/BookMyShow-Clone/index.html",
+    "main.47503743.css.map": "/BookMyShow-Clone/static/css/main.47503743.css.map",
+    "main.a430349e.js.map": "/BookMyShow-Clone/static/js/main.a430349e.js.map",
+    "787.2ead5929.chunk.js.map": "/BookMyShow-Clone/static/js/787.2ead5929.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47503743.css",
+    "static/js/main.a430349e.js"
+  ]
+}
