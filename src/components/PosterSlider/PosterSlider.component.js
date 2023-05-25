@@ -7,7 +7,7 @@ import { PosterCommon } from "../Poster/poster.component";
 const PosterSlider = (props) => {
     return (
         <>
-            <div className="flex flex-col items-start py-1 pl-3">
+            <div className="flex flex-col items-start py-1 pl-1 lg:pl-3">
                 <h3 className={`text-lg md:text-xl lg:text-2xl font-bold ${props.isDark ? "text-white" : "text-gray-800"
                     }`}>{props.title}</h3>
                 <p className={` text-xs md:text-sm ${props.isDark ? "text-white" : "text-gray-800"
@@ -25,7 +25,7 @@ const PosterSlider = (props) => {
 export const PosterSliderCommon = (props) => {
     return (
         <>
-            <div className="flex flex-col items-start py-1 pl-3">
+            <div className="flex flex-col items-start py-1 pl-1 lg:pl-3">
                 <h3 className={`text-lg md:text-xl lg:text-2xl font-bold ${props.isDark ? "text-white" : "text-gray-800"
                     }`}>{props.title}</h3>
                 <p className={` text-xs md:text-sm ${props.isDark ? "text-white" : "text-gray-800"
